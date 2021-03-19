@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/nav_logo_whiteout" />
 
     <EditText
         android:id="@+id/newUsername"
@@ -30,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Sign Up" />
+        android:text="Sign Up"
+        android:textColor="@color/black" />
 
 </LinearLayout>
